@@ -1,9 +1,9 @@
 
 import ReactDOM from "react-dom";
-import { HelloName } from "./HelloName" 
+import { Calc } from "./Calc" 
 
-const helloWorldElement = <HelloName />;
+const calculation = <Calc/>;
 const root = document.getElementById("root");
 
 
-ReactDOM.render(helloWorldElement, root)
+ReactDOM.render(calculation, root)
