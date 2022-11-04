@@ -1,10 +1,7 @@
 import React from "react";
 
 const hello = "Hello,"
-
-
-
-const name = (x) => x
+ const name = (x) => x
 
 export class HelloName extends React.Component {
     render(){
