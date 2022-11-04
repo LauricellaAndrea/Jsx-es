@@ -1,10 +1,14 @@
 import React from "react";
 
-const hello = "Hello,"
- const name = (x) => x
+class App extends React.Component {
 
-export class HelloName extends React.Component {
-    render(){
-        return <h1>{hello} {name("Andrea")}</h1>
+    Func(name) {
+      return <h1>Hello, {name}</h1>;
     }
-}
+  
+    render() {
+      return <div>{this.Func("Marco")}</div>;
+    }
+  }
+  
+  export default App;

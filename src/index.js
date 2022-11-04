@@ -1,8 +1,8 @@
 
 import ReactDOM from "react-dom";
-import { HelloName } from "./HelloName" 
+import { App } from "./HelloName" 
 
-const helloWorldElement = <HelloName />;
+const helloWorldElement = <App />;
 const root = document.getElementById("root");
 
 
